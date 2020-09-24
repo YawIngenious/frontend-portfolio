@@ -1,0 +1,123 @@
+!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Header details Lihoc -->
+    <title>Life Holy Ghost Church</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" type="text/css" href="church.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+
+<body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="50">
+
+<nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="#">Home</a>
+        <img src="lihoc-logo.jpeg" alt="Home" width="70">
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="activities.html">Activities</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
+        <li><a href="resources.html">Blog</a></li>
+        
+        <li><a href="#"><span class="glyphicon glyphicon-search"></span></a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- Container (Activities Section) -->
+<div id="activities" class="bg-1">
+  <div class="container">
+    <h3 class="text-center">Church Programmes:</h3>
+    <h4 class="text-center">Sunday Service.<br> Time: 8:00am - 10:30am</h4>
+    <h4 class="text-center">Bible Studies.<br> Every Wednesday and Sunday Morning</h4>
+    <h4 class="text-center">Prayer Meeting.<br> Every Friday<br>Time: 6:30pm - 8:30pm</h4><br>
+
+    <h3> Upcoming Bible Studies</h3>
+    <ul class="list-group">
+      <li class="list-group-item">September <span class="label label-success">Daniel</span></li>
+      <li class="list-group-item">October <span class="label label-success">Revelation</span></li> 
+      <li class="list-group-item">November <span class="label label-success">Hosea</span></li> 
+    </ul>
+    
+    <div class="row text-center">
+      <div class="col-sm-4">
+        <div class="thumbnail">
+          <img src="biblestudy.jpg" alt="Studies" width="400" height="300">
+          <p><strong>Bible Studies</strong></p>
+          <p>Wednesdays and Sunday Mornings</p>
+          <button class="btn" data-toggle="modal" data-target="#myModal">Come Early!</button>
+        </div>
+      </div>
+      <div class="col-sm-4">
+        <div class="thumbnail">
+          <img src="worshipping.jpg" alt="Church Service" width="400" height="300">
+          <p><strong>Holy Ghost Service</strong></p>
+          <p>Join Sunday Impact Service and you will never be the same</p>
+          <button class="btn" data-toggle="modal" data-target="#myModal">Come Early!</button>
+        </div>
+      </div>
+      <div class="col-sm-4">
+        <div class="thumbnail">
+          <img src="remnant.JPG" alt="San Francisco" width="400" height="300">
+          <p><strong>Remnant Conference</strong></p>
+          <p></p>
+          <button class="btn" data-toggle="modal" data-target="#myModal">Register Now</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <!-- Modal -->
+  <div class="modal fade" id="myModal" role="dialog">
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">×</button>
+          <h4><span class="glyphicon glyphicon-lock"></span> Register</h4>
+        </div>
+        <div class="modal-body">
+          <form role="form">
+            <div class="form-group">
+              <label for="psw"><span class="glyphicon glyphicon-shopping-cart"></span> Free</label>
+              <input type="number" class="form-control" id="psw" placeholder="How many?">
+            </div>
+            <div class="form-group">
+              <label for="usrname"><span class="glyphicon glyphicon-user"></span> Send To</label>
+              <input type="text" class="form-control" id="usrname" placeholder="Enter email">
+            </div>
+              <button type="submit" class="btn btn-block">Register 
+                <span class="glyphicon glyphicon-ok"></span>
+              </button>
+          </form>
+        </div>
+        <div class="modal-footer">
+          <button type="submit" class="btn btn-danger btn-default pull-left" data-dismiss="modal">
+            <span class="glyphicon glyphicon-remove"></span> Cancel
+          </button>
+          <p>Need <a href="#">help?</a></p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
