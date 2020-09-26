@@ -16,34 +16,40 @@
 <body>
            <!-- Navbar -->
 
-<nav class="navbar navbar-expand-sm bg-primary navbar-primary">
-  <a class="navbar-brand" href="#">
-    <img src="ministrylogo.jpeg" class="img-rounded" alt="Home" width="70">
-  </a>
-  <div class="container-fluid">
+<nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container">
     <div class="navbar-header">
-  </div>
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+      
+              <span class="icon bar"></span>
+              <span class="icon bar"></span>
+              <span class="icon bar"></span>
+              <span class="icon bar"></span>
+            </button>
+          <a class="navbar-brand" href="#">Home</a>
+    </div>
+
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav navbar-right">
-        <li><a href="home.html"><button>Profile</button></a></li>
-        <li><a href="details.html"><button>What I Do</button></a></li>
-        <li><a href="events.html"><button>Events</button></a></li>
-        <li><a href="contact.html"><button>Contact</button></a></li>
+        <li><a href="#profile">Profile</a></li>
+        <li><a href="#what">What I Do</a></li>
+        <li><a href="#events">Events</a></li>
+        <li><a href="#contact">Contact</a></li>
       </ul>
     </div>
   </div>
 </nav>
 
 <!-- First Container (Profile) -->
-<div class="container-fluid bg-1 text-center">
+<div id="profile" class="container-fluid bg-1 text-center">
   <h1 class="margin"><strong>Welcome to Yaw Andoh Mensah Ministries</strong></h1>
-  <img src="profile-pix.jpg" class="img-responsive img-rounded margin" style="display:inline" alt="Yaw Andoh Mensah" width="350" height="350">
+  <img src="profile-pix.jpg" class="img-responsive img-rounded margin" style="display:inline-block;" alt="Yaw Andoh Mensah" width="350" height="350">
   <h3>Teacher || Preacher || Author || Life Coach</h3>
 
 </div>
 <br><br><hr>
-<!-- Second Container (Details) -->
-<div class="container-fluid bg-2 text-center">
+<!-- Second Container (What I Do) -->
+<div id="what" class="container-fluid bg-2 text-center">
   <h1 class="margin"><strong>What I Do</strong></h1>
 <h3>Yaw Andoh Mensah is a passionate young man called to the do the <strong>Work of the Apostle</strong> and live the <strong>Life of the Prophet</strong>.  He was called into ministry in 2012 and has been the Chief Steward pushing the Ingenious Agenda of the Kingdom of God.  <br></h3>
   <h3>He is an anointed and dynamic teacher of the Infallible Word of God.  He is a <em>Conference Speaker</em> and a <em>Prolific Writer</em>.  He is also married with three children and lives in Ghana, West Africa. <br></h3>
@@ -55,7 +61,7 @@
 </div><br><hr>
 
 <!-- Third Container (Events) -->
-<div class="container-fluid bg-3 text-center">    
+<div id="events" class="container-fluid bg-3 text-center">    
   <h1 class="margin"><strong>Events</strong></h1>
   <div class="row">
     <div class="col-sm-4">

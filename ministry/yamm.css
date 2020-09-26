@@ -5,25 +5,23 @@
     color: #00000;
   }
   p {font-size: 16px;}
-  .margin {margin-bottom: 45px; margin-top: 20px}
+  .margin {margin-bottom: 45px;}
+
+  }
   .bg-1 { 
     background-color: #7daec1; /* Background Profile Picture*/
     color: #00000;
-    background-image: url('abstract.jpg');
+    background-image: url("abs.jpg");
     background-position: center;
   }
-
   .bg-2 { 
-    background-color: #abcdef; /* Details section Blue */
+    background-color: #abcdef; /* what i do section Blue */
     color: #00000;
   }
   .bg-3 { 
     background-color: #ffff; /* Events section */
     color: #3c3304;
-    h1 {color: solid;
-      border: solid padding-top: 20px;
     }
-
   .bg-4 {
     background-color: #abcdef; /* Contact section */
     color: #00000
@@ -34,21 +32,21 @@
     color: #00000;
   }
   .container {
-    padding-top: 70px;
-    padding-bottom: 70px;
+    padding-top: 40px;
+    padding-bottom: 40px;
   }
   .navbar {
     padding-top: 12px;
     padding-bottom: 12px;
-    border: 4px;
-    border-radius: 1px;
-    margin-bottom: 2px;
+    border: 0px;
+    border-radius: 0px;
+    margin-bottom: 0px;
     font-size: 16px;
-    letter-spacing: 6px;
+    font-family: Montserrat, sans-serif;
+    letter-spacing: 5px;
   }
-
-  .navbar-brand  li a:hover {
+ .navbar-nav li a:hover, {
     color: #00000 !important;
-    na
+    background color: #0000 !important;
   }
-  </style>
+</style>
