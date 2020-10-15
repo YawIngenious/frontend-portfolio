@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Quiz</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+    <Link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
+    <Link href="quiz.css" rel="stylesheet">
+</head>
+
+<body>
+    <div id="quizContainer" class="container">
+        <div class="title"><strong>Spirituality Quiz</strong></div>
+        <div id="question" class="question"></div>
+        <label class="option"><input type="radio" name="option" value="1" /> <span id="opt1"></span></label>
+        <label class="option"><input type="radio" name="option" value="1" /> <span id="opt2"></span></label>
+        <label class="option"><input type="radio" name="option" value="1" /> <span id="opt3"></span></label>
+        <label class="option"><input type="radio" name="option" value="1" /> <span id="opt4"></span></label>
+        <button id="nextButton" class="next-btn" onclick="loadNextQuestion();">Next</button>
+    </div>
+    <div id="result" class="container result" style="display:none;">
+    </div>
+    <script src="question.js"></script>
+    <script src="quiz-script.js"></script>
+</body>
+</html>
